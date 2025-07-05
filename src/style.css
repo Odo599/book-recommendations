@@ -1,0 +1,52 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #efefef;
+}
+
+/* Input and Button Styling */
+input,
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+/* Container for the user input and button */
+.inputcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #777;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* User Input Styling */
+.inputcontainer input {
+    margin: 0px;
+    height: 18px;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    background-color: #fff0;
+    border-radius: 5px;
+    flex: 1;
+}
+
+/* Input Button Styling */
+.inputcontainer .button {
+    margin: 0px;
+    height: 34px;
+    padding: 8px;
+    border: 0px;
+    background: #7770;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+}
