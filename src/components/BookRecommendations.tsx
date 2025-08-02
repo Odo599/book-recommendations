@@ -44,7 +44,7 @@ const BookRecommendations: React.FC = () => {
 
         try {
             const response = await fetch(
-                `https://swift-joline-book-recommendations-d151df8c.koyeb.app/recommend?books=${encodeURIComponent(
+                `https://corsproxy.io/?https://swift-joline-book-recommendations-d151df8c.koyeb.app/recommend?books=${encodeURIComponent(
                     books.join(",")
                 )}`
             );
