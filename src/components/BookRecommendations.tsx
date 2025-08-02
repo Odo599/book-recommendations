@@ -44,7 +44,9 @@ const BookRecommendations: React.FC = () => {
 
         try {
             const response = await fetch(
-                `/api/recommend?books=${encodeURIComponent(books.join(","))}`
+                `https://swift-joline-book-recommendations-d151df8c.koyeb.app/recommend?books=${encodeURIComponent(
+                    books.join(",")
+                )}`
             );
             const data = await response.json();
 
